@@ -1,0 +1,314 @@
+@font-face {
+    font-family: 'RobotoFlex';
+    src: url('RobotoFlex.ttf') format('truetype-variations');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #04588C;
+    box-sizing: border-box ;
+    font-family: 'RobotoFlex', 'poppins', sans-serif;
+    
+}
+body{
+    background-image: url(photos/bg.jpg);
+    background-size:  cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    position: fixed;
+    top: 80%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  .fa-facebook{
+      color: #ffff;
+  }
+  .fa-twitter{
+      color: #ffff;
+  }
+  .fa-google{
+      color: #ffff;
+  }
+  .fa-linkedin{
+      color: #ffff;
+  }
+  .fa-youtube{
+      color: #ffff;
+  }
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .content {
+    margin-left: 75px;
+    font-size: 30px;
+  }
+/* navbar*/
+nav ul li a{
+    font-family: 'poppins', sans-serif;
+        
+}
+
+nav ul li a:hover{
+    color: #585858 !important;
+        
+}
+.dropdown-menu a:hover {background-color: #ddd;}
+
+.dropdown1:hover .dropdown-menu {display: block;}
+
+.dropdown1:hover .dropbtn {color: #505050;}
+/* landing page*/
+
+.intro-text {
+    padding-top: 18%;
+    padding-bottom: 0;
+}
+.intro-text h1{
+    color: #ffff;
+
+    font-variation-settings: "wght" 750, "wdth" 150;
+
+}
+.intro-text h1 span{
+    color: #ffff
+}
+.intro-text h1 .anime5{
+    color: transparent;
+    -webkit-text-stroke: 1px #ffff;
+}
+
+
+.anime1 {
+    animation: anime1 1.5s infinite alternate ease-in-out;
+}
+@keyframes anime1 {
+    from{
+        font-variation-settings: "wght" 750, "wdth" 25;
+    }
+    to {
+        font-variation-settings: "wght" 750, "wdth" 151;
+    }
+    
+}
+
+.anime3 {
+    animation: anime3 1.5s infinite alternate ease-in-out;
+}
+@keyframes anime3 {
+    from{
+        font-variation-settings: "wght" 750, "wdth" 151;
+    }
+    to {
+        font-variation-settings: "wght" 750, "wdth" 25;
+    }
+    
+}
+
+.anime2 {
+    animation: anime2 1.7s infinite alternate ease-in-out;
+}
+@keyframes anime2 {
+    from{
+        font-variation-settings: "wght" 750, "wdth" 25;
+    }
+    to {
+        font-variation-settings: "wght" 750, "wdth" 151;
+    }
+    
+}
+
+.anime4 {
+    animation: anime4 1.7s infinite alternate ease-in-out;
+}
+@keyframes anime4 {
+    from{
+        font-variation-settings: "wght" 750, "wdth" 25;
+    }
+    to {
+        font-variation-settings: "wght" 750, "wdth" 151;
+    }
+    
+}
+
+.anime5 {
+    animation: anime5 1.7s infinite alternate ease-in-out;
+}
+
+@keyframes anime5 {
+    from {
+      font-variation-settings: "wght" 300, "YTUC" 660, "XOPQ" 100;
+    }
+    to {
+      font-variation-settings: "wght" 750, "YTUC" 760, "XOPQ" 170;
+    }
+  }
+
+  .anime6 {
+    animation: anime6 1.7s infinite alternate ease-in-out;
+}
+
+@keyframes anime6 {
+    from {
+      font-variation-settings: "wght" 750, "YTUC" 760, "XOPQ" 170;
+    }
+    to {
+      font-variation-settings: "wght" 300, "YTUC" 660, "XOPQ" 100;
+    }
+  }
+
+
+/*home*/
+
+.booking{
+
+    margin:0 10% ;
+    padding: 5%;
+    background-color: rgba(18, 0, 56, 0.5);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3);
+    backdrop-filter: blur(.4rem);
+    border-radius: 1rem;
+
+
+}
+ 
+.booking .block a{
+    text-decoration: none;
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+.booking .tab-content{
+    color: white;
+    
+}
+
+.booking .from input{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    outline: none;
+    padding: 0 10 px;
+    color: white;
+    cursor: text;
+}
+.booking label{
+    font-family: 'poppins', sans-serif;
+    color: white;
+    
+}
+.booking .btn{
+    font-family: 'poppins', sans-serif;
+    color: #ffff;
+    background-color: rgba(18, 0, 56, 0.5);
+    border: 1px solid #ffff;
+}
+.booking .form-control {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    outline: none;
+    padding: 0 10 px;
+    color: white;
+    cursor: pointer;
+}
+
+/* auto complete */
+/*the container must be positioned relative:*/
+.autocomplete {
+    position: relative;
+    display: inline-block;
+  }
+  
+  input {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  input[type=text] {
+    background-color: #f1f1f1;
+    width: 100%;
+  }
+  
+  input[type=submit] {
+    background-color: DodgerBlue;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+  
+  .autocomplete-items div {
+    font-family: 'poppins',sans-serif;
+    cursor: pointer;
+    color: black;
+    background-color: #fff; 
+    border-bottom: 1px solid #d4d4d4; 
+  }
+  
+  /*when hovering an item:*/
+  .autocomplete-items div:hover {
+    background-color: #e9e9e9; 
+  }
+  
+  /*when navigating through the items using the arrow keys:*/
+  .autocomplete-active {
+    background-color: DodgerBlue !important; 
+    color: #ffffff; 
+  }
